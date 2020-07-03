@@ -43,11 +43,25 @@ body{
     perspective:2000px;
 }
 #marcos{
-    width: 200px;
-    height: 200px;
-    padding: 50px;
+    width: 230px;
+    height: 230px;
+    padding: 30px;
 }
 p{
-    padding: 20px;
+    padding: 2px;
     font-family: fantasy;
+    margin: 15px;
+    font-size: 15px;
+}
+.titles{
+    font-family: fantasy;
+    font-weight: bold;
+}
+#stars{
+    width: 100px;
+    height: 70px;
+}
+#comet{
+    width: 190px;
+    height: 160px;
 }
