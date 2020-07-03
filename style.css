@@ -3,6 +3,8 @@ body{
   display: flex;
   justify-content: center;
   padding-top: 20px; 
+  overflow: hidden;
+
 }
 
 #book .hard{
@@ -19,10 +21,33 @@ body{
 }
 
 .pages {
-    background-size: cover;
+    background-color: white;
+    text-align: center;
+
 }
 #portada {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    
+}
+#chau{
+    text-align: center;
+    padding-top: 520px;
+    font-family: cursive ;
+}
+#book .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+#marcos{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+p{
+    padding: 20px;
+    font-family: fantasy;
 }
