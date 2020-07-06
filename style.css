@@ -44,8 +44,7 @@ body{
 }
 #marcos{
     width: 230px;
-    height: 230px;
-    padding: 30px;
+    height: 230px;    
 }
 p{
     padding: 2px;
@@ -61,29 +60,19 @@ p{
 }
 #stars{
     width: 100px;
-    height: 70px;
+    height: 100px;
 }
 #stars:hover{
     animation-name: twinkle-1;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 @keyframes twinkle-1 {
     20% {
       transform: scale(0.5);
-      opacity: 0.3;
+      opacity: 0.2;
     }
   }
-
-#comet{
-    width: 190px;
-    height: 160px;
-}
-#comet:hover{
-    animation-name: beat;
-    animation-duration: 3s;
-}
-
 
 #rainbow{
     width: 100px;
@@ -162,9 +151,86 @@ p{
 
   #light:hover{
     animation-name: twinkle-1;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
   }
+ 
 #impar{
     padding-top: 95px;
+}
+
+#butterfly{
+    width: 85px;
+    height: 150px;
+    margin-left: 20px; 
+}
+#butterfly:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#mariposa{
+    width: 40px;
+    height: 90px;
+}
+#mariposa:hover{
+    animation-name: twinkle-1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 249px;
+    }
+  }
+#imagen{
+    display: flex;
+    padding-top: 20px;
+
+}
+#luz{
+    width: 90px;
+}
+#luz:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#marcosmedita{
+    width: 200px;
+    height: 200px;
+}
+#starup{
+    width: 230px;
+    height: 230px;
+}
+#starup:hover{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+#posturastitulo{
+    color:antiquewhite;
+    font-family: 'Merienda One', cursive;
+    
+}
+#posturas{
+    width: 380px;
+}
+.caratula{
+    
+    background-color: pink;
+    text-align: center;
+}
+
+.asana{
+    width: 400px;
+}
+#om{
+    width: 100px;
+    padding-top: 250px;
 }
