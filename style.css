@@ -14,7 +14,7 @@ body{
     -o-box-shadow:inset 0 0 5px #666;
     -ms-box-shadow:inset 0 0 5px #666;
     box-shadow:inset 0 0 5px #666; 
-    font-family: fantasy;
+    font-family: 'Merienda One', cursive;
     text-align: center;
     color: peachpuff;
     font-size: 25px;;
@@ -49,17 +49,21 @@ body{
 }
 p{
     padding: 2px;
-    font-family: fantasy;
+    padding-top: 40px;
+    font-family: 'Merienda One', cursive;
     margin: 15px;
     font-size: 15px;
 }
 .titles{
-    font-family: fantasy;
+    font-family: 'Merienda One', cursive;
     font-weight: bold;
+    padding-top: 10px;
 }
 #stars{
     width: 100px;
     height: 70px;
+}
+#stars:hover{
     animation-name: twinkle-1;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -74,8 +78,10 @@ p{
 #comet{
     width: 190px;
     height: 160px;
+}
+#comet:hover{
     animation-name: beat;
-    animation-duration: 1s;
+    animation-duration: 3s;
 }
 
 
@@ -87,8 +93,6 @@ p{
     animation-iteration-count: infinite;
 }
     
- 
-
 
   .back {
     position: fixed;
@@ -140,11 +144,7 @@ p{
     left: 0px;
   }
 
-  @keyframes backdiv {
-    50% {
-      background: #ffe6f2;
-    }
-  }
+ 
 
   @keyframes beat {
     0% {
@@ -154,3 +154,17 @@ p{
       transform: scale(0.6) rotate(-45deg);
     }
   }
+
+  #light{
+      width: 250px;
+      height: 250px;
+  }
+
+  #light:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+#impar{
+    padding-top: 95px;
+}
