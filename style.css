@@ -23,7 +23,6 @@ body{
 .pages {
     background-color: white;
     text-align: center;
-
 }
 #portada {
     width: 200px;
@@ -43,24 +42,24 @@ body{
     perspective:2000px;
 }
 #marcos{
-    width: 230px;
-    height: 230px;    
+    width: 260px;
+    height: 260px;    
 }
 p{
     padding: 2px;
     padding-top: 40px;
     font-family: 'Merienda One', cursive;
     margin: 15px;
-    font-size: 15px;
+    font-size: 16px;
 }
 .titles{
     font-family: 'Merienda One', cursive;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 #stars{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
 }
 #stars:hover{
     animation-name: twinkle-1;
@@ -145,8 +144,8 @@ p{
   }
 
   #light{
-      width: 250px;
-      height: 250px;
+      width: 260px;
+      height: 260px;
   }
 
   #light:hover{
@@ -160,8 +159,8 @@ p{
 }
 
 #butterfly{
-    width: 85px;
-    height: 150px;
+    width: 90px;
+    height: 170px;
     margin-left: 20px; 
 }
 #butterfly:hover{
@@ -170,8 +169,8 @@ p{
     animation-iteration-count: infinite;
 }
 #mariposa{
-    width: 40px;
-    height: 90px;
+    width: 50px;
+    height: 110px;
 }
 #mariposa:hover{
     animation-name: twinkle-1;
@@ -188,11 +187,11 @@ p{
   }
 #imagen{
     display: flex;
-    padding-top: 20px;
+    padding-top: 50px;
 
 }
 #luz{
-    width: 90px;
+    width: 100px;
 }
 #luz:hover{
     animation-name: twinkle-1;
@@ -200,12 +199,12 @@ p{
     animation-iteration-count: infinite;
 }
 #marcosmedita{
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
 }
 #starup{
-    width: 230px;
-    height: 230px;
+    width: 240px;
+    height: 240px;
 }
 #starup:hover{
     animation-name: bounce;
@@ -219,7 +218,7 @@ p{
     
 }
 #posturas{
-    width: 380px;
+    width: 390px;
 }
 .caratula{
     
@@ -228,9 +227,5 @@ p{
 }
 
 .asana{
-    width: 400px;
-}
-#om{
-    width: 100px;
-    padding-top: 250px;
+    width: 500px;
 }
