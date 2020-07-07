@@ -73,9 +73,18 @@ p{
     }
   }
 
+  @keyframes twinkle-2 {
+    50% {
+      transform: scale(0.9);
+      opacity: 0.1;
+    }
+  }
+
 #rainbow{
-    width: 100px;
-    height: 75px;
+    width: 450px;
+    height: 115px;
+}
+#rainbow:hover{
     animation-name: twinkle-1;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -233,21 +242,61 @@ p{
     width: 250px;
     height: 250px;
 }
+#casa:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
 #gato{
     width: 115px;
     height: 140px;
 }
 
+#gato:hover{
+    animation-name: twinkle-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
 #ranapatio{
     width: 80px;
     height: 70px;
+}
+#ranapatio:hover{
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }
 
 #cat{
     width: 100px;
     
 }
+#cat:hover{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
 #family{
     width: 340px;
     height: 400px;
+}
+#family:hover{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+#pray{
+    width: 200px;
+    height: 200px;;
+}
+#viento{
+    width: 260px;
 }
