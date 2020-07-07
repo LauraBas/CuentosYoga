@@ -22,7 +22,7 @@ body{
 
 .pages {
     background-color: white;
-    text-align: center;
+    text-align: center;   
 }
 #portada {
     width: 200px;
@@ -194,6 +194,8 @@ p{
       top: 249px;
     }
   }
+
+  
 #imagen{
     display: flex;
     padding-top: 50px;
@@ -257,10 +259,7 @@ p{
     animation-name: twinkle-2;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-
-
 }
-
 
 #ranapatio{
     width: 80px;
@@ -278,7 +277,7 @@ p{
     
 }
 #cat:hover{
-    animation-name: bounce;
+    animation-name: twinkle-1;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 
@@ -288,7 +287,7 @@ p{
     height: 400px;
 }
 #family:hover{
-    animation-name: bounce;
+    animation-name: twinkle-1;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 
@@ -299,4 +298,26 @@ p{
 }
 #viento{
     width: 260px;
+}
+#bird{
+    width: 300px;
+}
+#bird:hover{
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#montagna{
+    width: 400px;
+    border-radius: 50%;
+}
+#volar{
+    width: 470px;
+}
+#volar:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
 }
