@@ -6,6 +6,22 @@ body{
   overflow: hidden;
 
 }
+@media only screen and (max-width: 600px){
+    body{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+    }
+    .responsive-img{
+        max-width:100%;
+        height: auto;
+        
+    }
+    p{
+        width: 55vmin;
+    }
+   
+}
 
 #book .hard{
     background:#d87093 !important;
@@ -17,7 +33,7 @@ body{
     font-family: 'Merienda One', cursive;
     text-align: center;
     color: peachpuff;
-    font-size: 25px;;
+    font-size: 25px;
 }
 
 .pages {
@@ -45,6 +61,11 @@ body{
     width: 260px;
     height: 260px;    
 }
+@media (max-height: 800px){ 
+    p {
+    font-size: 10px;
+      }
+  }
 p{
     padding: 2px;
     padding-top: 40px;
@@ -140,8 +161,6 @@ p{
     top: -25px;
     left: 0px;
   }
-
- 
 
   @keyframes beat {
     0% {
@@ -324,19 +343,37 @@ p{
 #flauta{
     width: 250px;
 }
+#flauta:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 #nido{
     width: 250px;
 }
-
-
+#nido:hover{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 #music{
     width: 190px;
+}
+#music:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #flauta3{
     width: 150px;
 }
 #warrier{
     width: 400px;
+}
+#warrier:hover{
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #casanieve{
     width: 400px;
@@ -349,69 +386,168 @@ p{
     border-radius: 50%;
     opacity:0.6;
 }
+#nieve:hover{
+    animation-name: beat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #gatonieve{
     width: 300px;
+}
+#gatonieve:hover{
+    animation-name: bounce;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
 #charco{
     width: 350px;
 }
+#charco:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 #bicinene{
     width: 320px;
 }
+#bicinene:hover{
+    animation-name: twinkle-1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 #bici{
     width: 300px;
+}
+#bici:hover{
+    animation-name: beat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #inflador{
     width: 300px;
     padding: 60px;
 }
+#inflador:hover{
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #flor{
     width:100px;
+}
+#flor:hover{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #snake{
     width: 200px;
 }
+#snake:hover{
+    animation-name: beat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #corazon{
     width: 120px;
+}
+#corazon:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #mar{
     width: 250px;
     border-radius: 50%;
 }
+#mar:hover{
+    animation-name: beat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 #avioneta{
     width: 320px;
     padding: 25px;
 }
+#avioneta:hover{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 #bombon{
     width: 235px;
+}
+#bombon:hover{
+    animation-name: beat;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 #motor{
     width: 250px;
     padding: 35px;
 }
+#motor:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #perros{
     width: 350px;
 }
+#perros:hover{
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #factory{
     width: 370px;
+}
+#factory:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #map{
     width: 350px;
     padding: 40px;
 }
+#map:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #trip{
     width: 300px;
+}
+#trip:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #bosque{
     width: 350px;
     border-radius:50%;
-    padding: 60px;
-    
+    padding: 60px; 
+}
+#bosque:hover{
+    animation-name: twinkle-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 #molinos{
     width: 350px;
     border-radius: 50%;
 }
+#molinos:hover{
+    animation-name: beat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #maletas{
     width: 350px;
+}
+#maletas:hover{
+    animation-name: twinkle-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
